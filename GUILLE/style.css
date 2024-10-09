@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .gui_body{
+    background-color: blue;
+} */
+
+ .gui_carrusel{
+ display: flex;
+ gap: 30px;
+ padding: 20px;
+}
+
+.gui_tarjeta{
+    background-color: chartreuse;
+    border: 2px dashed black;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gui_imagen img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.gui_btn img{
+    height: 50px;
+
+}
+.gui_btn{
+    height: 60px;
+    width: 100px;
+}
+
+.gui_boton {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20pt;
+    margin-bottom: 20px;
+}
+.gui_frase{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.gui_nombre{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.gui_texto{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.gui_header{
+    box-shadow: 0px 4px 10px rgb(3, 100, 245);
+    background-color: aqua;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.gui_footer{
+    box-shadow: 0px -4px 10px rgb(3, 100, 245);
+    background-color: aqua;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}

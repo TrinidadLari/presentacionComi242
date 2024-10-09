@@ -1,0 +1,93 @@
+       *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+       }
+       
+       body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #faebeb;
+          
+        }
+
+        header {
+            background-color: #fd761d;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .carousel {
+            display: flex;
+            padding: 20px;
+            gap: 30px;     
+        }
+
+
+        .card {
+               width: 300px;        
+            background-color: rgb(240, 250, 225);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(253, 0, 0, 0.235);
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .card h2 {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #5b5b5b;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: rgb(0, 0, 0);
+        }
+
+        .contact {
+            background-color: #00ffe1;
+        }
+
+        .contact img{
+          height: 24px;
+        }
+
+        .project {
+            background-color:  #fc9c5d;
+        }
+
+        footer {
+            background-color: #fd761d;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }

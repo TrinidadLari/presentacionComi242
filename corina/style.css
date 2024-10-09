@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* .cori-body {
+    background-color: rgb(245, 174, 213);
+}
+ */
+
+ .cori-carrusell{
+ display: flex;
+ gap: 30px;
+ padding: 20px;
+}
+
+.cori-tarjeta{
+  background-color: rgb(245, 145, 215); 
+  border: 2px solid black; 
+  border-radius: 10px; 
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cori-imagen img{
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
+}
+
+.cori-btn img {
+    height: 40px;
+}
+
+.cori-btn {
+    height: 50px;
+    width: 100px;
+}
+
+.cori-botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cori-frase {
+    background-color: rgb(23, 212, 108);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.cori-nombre {
+    font-size: 25px;
+}
+
+.cori-header {
+    background-color: rgb(235, 23, 129);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    box-shadow: 0px 4px 10px black; 
+}
+
+.cori-footer {
+    background-color: rgb(0, 204, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -4px 10px black;
+}

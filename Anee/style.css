@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .ane-body{
+    background-color: cyan;
+} */
+
+.ane-carrusel{
+ display: flex;
+ gap: 30px;
+ padding: 20px;
+}
+
+.ane-tarjeta{
+    background-color: rgb(245, 241, 8);
+    border: 20px groove rgb(22, 233, 163);
+    border-radius: 10px;
+    height: 570px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ane-imagen img{
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+   
+}
+
+.ane-btn img{
+    display: inline-block;
+    object-fit: cover;
+    width: 20%;
+   }
+
+.ane-btn{
+    background-color: gold;
+    border: 20px gold;
+    border-radius: 10px;
+}
+
+.ane-imagen{
+    background-color: gold;
+    border: 20px groove gold;
+    border-radius: 10px;
+}
+
+
+.ane-nombre{
+    text-align: center;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ane-texto{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.ane-header{
+    box-shadow: 0px 4px 10px black;
+    background-color: rgb(16, 238, 27);
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.ane-footer{
+    box-shadow: 0px -4px 10px black;
+    background-color: rgb(16, 238, 27);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
